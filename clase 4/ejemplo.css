@@ -1,0 +1,33 @@
+h2{
+    color: blue;
+}
+h1{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    font-family: arial,sans-serif;
+}
+p{
+    color: green;
+}
+.destacados{
+    color: blue;
+    font-size: 22px;  /*tamaño*/
+    font-style: italic; /*fuente*/
+    font-weight: bold; /*negrita*/
+}
+#rojo{
+    width: 300px;
+    background-color:lightcoral;
+    text-align:center;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#celeste{
+    width: 300px;
+    background-color:yellow;
+    padding: 20px;
+    box-sizing: border-box;
+}
