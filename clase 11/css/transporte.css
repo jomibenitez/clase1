@@ -56,8 +56,8 @@ h2{
     font-weight: 400;
     color: #2e64a1;
 }
-.imagenavion{
-    width: 100%;
+.homeimg img{
+    max-width: 100%;
 }
 
 .bienvenidos{
@@ -196,4 +196,31 @@ h2{
     margin-left: 80px;
     transition: all 0.2s ease;
     cursor: pointer;
+}
+@media screen and (max-width: 550px) {
+  .columnas{
+    flex-direction: column;
+  }
+    .bienvenidos,
+    .testimonios{
+        max-width: 100%;
+    }
+    .testimonios{
+        display:none;
+    }
+ .holder{
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+ .personas{
+    flex-wrap: wrap;    
+ }
+ .persona{
+    width: 47%;
+    margin-bottom: 10px; 
+ }
+ .contacto{
+    flex-direction: column;
+ }
+
 }

@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(0, 13, 255);
+}
+h1{
+    background-color:rgb(38, 255, 0);
+}
+p{
+    font-size: 16px;
+    font-family: italic,
+}
+h2{
+    background-color:rgb(230, 173, 173);
+}
